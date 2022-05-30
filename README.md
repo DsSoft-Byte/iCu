@@ -3,7 +3,7 @@ The ultimate iCloud tool
 
 The tool of all times. Free. for Windows
 
-##What this tool does
+## What this tool does
 
 Bypasses iCloud lock on A5 Apple devices [Tethered]
 Runs local Apache server hosting SliverPHP
@@ -20,6 +20,6 @@ Provides lightweight Apache server
 
 SOFTWARES USED HERE BELONG TO THEIR RESPECTIBLE OWNERS
 
-#iCu, the ultimate tool of r/setupapp
+# iCu, the ultimate tool of r/setupapp
 
-##Made with love by u/The_Hackintosh
+## Made with love by u/The_Hackintosh
