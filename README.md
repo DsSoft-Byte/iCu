@@ -20,6 +20,6 @@ Provides lightweight Apache server
 
 SOFTWARES USED HERE BELONG TO THEIR RESPECTIBLE OWNERS
 
-# iCu, the ultimate tool of r/setupapp
+## iCu, the ultimate tool of r/setupapp
 
 ## Made with love by u/The_Hackintosh
