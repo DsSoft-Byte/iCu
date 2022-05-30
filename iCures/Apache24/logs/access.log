@@ -1,0 +1,11 @@
+127.0.0.1 - - [29/May/2022:11:59:11 +0200] "GET / HTTP/1.1" 200 207
+127.0.0.1 - - [29/May/2022:11:59:11 +0200] "GET /favicon.ico HTTP/1.1" 404 196
+127.0.0.1 - - [29/May/2022:11:59:13 +0200] "GET /sliver.php HTTP/1.1" 200 12391
+127.0.0.1 - - [29/May/2022:11:59:13 +0200] "GET /resources/auth_styles.css HTTP/1.1" 404 196
+127.0.0.1 - - [29/May/2022:12:43:46 +0200] "GET /resources/auth_styles.css HTTP/1.1" 404 196
+127.0.0.1 - - [29/May/2022:12:43:46 +0200] "GET /resources/auth_styles.css HTTP/1.1" 404 196
+127.0.0.1 - - [29/May/2022:12:43:47 +0200] "GET /favicon.ico HTTP/1.1" 404 196
+127.0.0.1 - - [29/May/2022:18:59:35 +0200] "GET /sliver.php HTTP/1.1" 200 12391
+127.0.0.1 - - [29/May/2022:18:59:35 +0200] "GET /resources/auth_styles.css HTTP/1.1" 404 196
+127.0.0.1 - - [29/May/2022:18:59:35 +0200] "GET /resources/auth_styles.css HTTP/1.1" 404 196
+127.0.0.1 - - [29/May/2022:18:59:36 +0200] "GET /favicon.ico HTTP/1.1" 404 196
