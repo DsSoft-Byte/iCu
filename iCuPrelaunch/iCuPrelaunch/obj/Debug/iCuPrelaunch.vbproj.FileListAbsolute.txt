@@ -1,0 +1,10 @@
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.exe.config
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.exe
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.pdb
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.xml
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.Form1.resources
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.Resources.resources
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.vbproj.GenerateResource.cache
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.exe
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.xml
+C:\Users\Daniel\source\repos\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.pdb
