@@ -1,6 +1,8 @@
 # iCu
 The ultimate iCloud tool
 
+## Do not use for the time being till the server connection/timeout problem is solved.
+
 The tool of all times. Free. for Windows
 
 ## What this tool does
