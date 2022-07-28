@@ -4,6 +4,7 @@ The ultimate iCloud tool
 ## Tool should work, if not delete the 127.0.0.1/sliver.php line and delete the ::'s of the next line and leave the last line like it is.
 
 The tool of all times. Free. for Windows
+Updated on 28/07/22 to work (hopefully)
 
 ## What this tool does
 
@@ -18,7 +19,9 @@ Pwns with Limera1n
 Provides a cmd shell to run all libimobiledevice commands
 Provides GIT Installer
 Provides working Pangu7 app
-Provides lightweight Apache server
+Provides a XAMPP environment
+Provides 2 custom-addressable Buttons
+
 
 SOFTWARES USED HERE BELONG TO THEIR RESPECTIBLE OWNERS
 
