@@ -132,3 +132,11 @@ ly determine the server's fully qualified domain name, using fe80::2c1f:fa01:f5c
 [Sun May 29 19:13:30.551954 2022] [mpm_winnt:notice] [pid 8140:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun May 29 19:13:32.552938 2022] [mpm_winnt:notice] [pid 15740:tid 472] AH00364: Child: All worker threads have exited.
 [Sun May 29 19:13:32.569457 2022] [mpm_winnt:notice] [pid 8140:tid 468] AH00430: Parent: Child process 15740 exited successfully.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::39b2:66cd:7aa3:3c9c. Set the 'ServerName' directive globally to suppress this message
+[Sun Jul 10 17:32:01.598930 2022] [mpm_winnt:notice] [pid 12064:tid 432] AH00455: Apache/2.4.53 (Win64) configured -- resuming normal operations
+[Sun Jul 10 17:32:01.599426 2022] [mpm_winnt:notice] [pid 12064:tid 432] AH00456: Apache Lounge VS16 Server built: May  4 2022 10:41:15
+[Sun Jul 10 17:32:01.599426 2022] [core:notice] [pid 12064:tid 432] AH00094: Command line: 'httpd -d C:/iCures/Apache24'
+[Sun Jul 10 17:32:01.609860 2022] [mpm_winnt:notice] [pid 12064:tid 432] AH00418: Parent: Created child process 12888
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::39b2:66cd:7aa3:3c9c. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::39b2:66cd:7aa3:3c9c. Set the 'ServerName' directive globally to suppress this message
+[Sun Jul 10 17:32:01.921404 2022] [mpm_winnt:notice] [pid 12888:tid 436] AH00354: Child: Starting 64 worker threads.

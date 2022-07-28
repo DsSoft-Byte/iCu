@@ -1,0 +1,13 @@
+---------------------------------------
+CB/X, CB/A In-depth Tutorial for iCu
+---------------------------------------
+
+These features were implemented after a lot of users gave their opinion on the maiden version of iCu that was not working properly
+for these advanced people CB/X and CB/A were introduced, CB is short for CustomButton, X is for xampp, the new default hosting programm
+and A is for Activation, to run a custom activation script.
+
+Enter the patch to any of the CB Buttons if you have an custom, better or alternate solution to hosting and/or Activation
+
+example: when C:\xampp\xampp-control.exe is in CB/X the Xampp control panel will be executed and you can change that to anything, defaults are at the "i" button.
+
+Happy Byapssing!
