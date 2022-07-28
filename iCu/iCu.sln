@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31728.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCu", "iCu\iCu.vbproj", "{A0E30C27-6F3D-4456-B073-593708AD647B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "iCu_DLL", "iCu_DLL\iCu_DLL.vbproj", "{0B6722A6-50BC-4143-977F-793AFB35C841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0E30C27-6F3D-4456-B073-593708AD647B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E30C27-6F3D-4456-B073-593708AD647B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E30C27-6F3D-4456-B073-593708AD647B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E30C27-6F3D-4456-B073-593708AD647B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6722A6-50BC-4143-977F-793AFB35C841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6722A6-50BC-4143-977F-793AFB35C841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6722A6-50BC-4143-977F-793AFB35C841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6722A6-50BC-4143-977F-793AFB35C841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0C209B-85AF-4304-9385-B1CC4A5977BE}
+	EndGlobalSection
+EndGlobal
