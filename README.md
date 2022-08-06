@@ -1,6 +1,8 @@
 # iCu
 The ultimate iCloud tool
 
+DO NOT DOWNLOAD UNDER RELEASES, GET THE ONE HERE -> DOWNLOAD AS ZIP
+
 ## Tool should work, if not delete the 127.0.0.1/sliver.php line and delete the ::'s of the next line and leave the last line like it is.
 
 The tool of all times. Free. for Windows
