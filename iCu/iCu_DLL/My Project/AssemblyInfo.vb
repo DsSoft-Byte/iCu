@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("iCu_DLL")>
-<Assembly: AssemblyDescription("iCu Library")>
+<Assembly: AssemblyDescription("iCu DLL code library that is unneeded in the main iCu executable.")>
 <Assembly: AssemblyCompany("DsSoft")>
 <Assembly: AssemblyProduct("iCu_DLL")>
 <Assembly: AssemblyCopyright("Copyright ©  2022")>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("7.15.2.0")>
-<Assembly: AssemblyFileVersion("7.15.2.0")>
+<Assembly: AssemblyVersion("8.1.2.0")>
+<Assembly: AssemblyFileVersion("8.1.2.0")>

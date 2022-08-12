@@ -2,11 +2,36 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form3.Show()
     End Sub
+    'May my soul descend into the keyboard as i am slowly coding myself to de4t5
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label7.Text = IO.File.ReadAllText("C:\iCures\lastdeviceid.txt")
         Label14.Text = IO.File.ReadAllText("C:\iCures\lastdevicestate.txt")
+        'These Labels will output the saved device info and output it into the tool.
     End Sub
+
+    Private Sub Form1_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Resize
+        If Me.WindowState = FormWindowState.Minimized Then
+            NotifyIcon1.Visible = True
+            'NotifyIcon1.Icon = SystemIcons.Application '(For custom icons from SystemIcons)'
+            NotifyIcon1.BalloonTipIcon = ToolTipIcon.Info
+            NotifyIcon1.BalloonTipTitle = "DsSoft iCu is in System tray!"
+            NotifyIcon1.BalloonTipText = "To open iCu again, double-click the tray icon!"
+            NotifyIcon1.ShowBalloonTip(50000)
+            NotifyIcon1.Text = "iCu"
+            'Me.Hide() '(Simpler but less fancy)'
+            ShowInTaskbar = False
+        End If
+    End Sub
+    'General tray fuckery
+
+    Private Sub NotifyIcon1_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.DoubleClick
+        'Me.Show()
+        ShowInTaskbar = True
+        Me.WindowState = FormWindowState.Normal
+        NotifyIcon1.Visible = False
+    End Sub
+    'General Taskbar fuckery
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
@@ -128,10 +153,16 @@ Explaination (in-depth) is at C:\iCures\CBTutorial.txt
 
 The Tool is 100% Open and you can help fixing it if you want to, nobody forces you to use this tool and do not hate on the people you dont need to and on those doing it for free.")
     End Sub
+    'Info fuckery
 
     Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
         Dim fileReader As String
         fileReader = My.Computer.FileSystem.ReadAllText("C:\iCures\CB-A-config.txt")
         Process.Start(fileReader)
     End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        Form6.Show()
+    End Sub
 End Class
+'This fucking piece of code took me 2h to copy from stack cuz the thread was very old and who tf reads configs from .txt's anymore man.
