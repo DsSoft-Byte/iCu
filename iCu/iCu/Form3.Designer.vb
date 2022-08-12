@@ -26,7 +26,6 @@ Partial Class Form3
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -66,7 +65,7 @@ Partial Class Form3
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(289, 16)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "iCu 23.8.3 was made around these components:"
+        Me.Label3.Text = "iCu 23.8.5 was made around these components:"
         '
         'Label4
         '
@@ -75,27 +74,16 @@ Partial Class Form3
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label4.Location = New System.Drawing.Point(16, 125)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(92, 16)
+        Me.Label4.Size = New System.Drawing.Size(90, 16)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "XAMPP 7-24-9"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Location = New System.Drawing.Point(16, 157)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(60, 16)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Git 2.36.1"
+        Me.Label4.Text = "XAMPP 7.24.9"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label7.Location = New System.Drawing.Point(17, 185)
+        Me.Label7.Location = New System.Drawing.Point(17, 157)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(237, 16)
         Me.Label7.TabIndex = 6
@@ -106,7 +94,7 @@ Partial Class Form3
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label8.Location = New System.Drawing.Point(17, 216)
+        Me.Label8.Location = New System.Drawing.Point(17, 188)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(89, 16)
         Me.Label8.TabIndex = 7
@@ -117,11 +105,11 @@ Partial Class Form3
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label9.Location = New System.Drawing.Point(17, 248)
+        Me.Label9.Location = New System.Drawing.Point(17, 220)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(192, 16)
+        Me.Label9.Size = New System.Drawing.Size(377, 16)
         Me.Label9.TabIndex = 8
-        Me.Label9.Text = "Microsoft .NET Framework 4.8+"
+        Me.Label9.Text = "Microsoft .NET Framework 4.8 (iCu + iCuDLL) .NET 6.0 Updater"
         '
         'Button1
         '
@@ -139,7 +127,7 @@ Partial Class Form3
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Location = New System.Drawing.Point(17, 275)
+        Me.Label6.Location = New System.Drawing.Point(17, 247)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(87, 16)
         Me.Label6.TabIndex = 10
@@ -150,7 +138,7 @@ Partial Class Form3
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label10.Location = New System.Drawing.Point(16, 303)
+        Me.Label10.Location = New System.Drawing.Point(16, 275)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(73, 16)
         Me.Label10.TabIndex = 11
@@ -168,7 +156,6 @@ Partial Class Form3
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -187,7 +174,6 @@ Partial Class Form3
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label

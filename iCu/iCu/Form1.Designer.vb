@@ -28,7 +28,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -119,7 +119,7 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer))
-        Me.Panel3.Controls.Add(Me.Button22)
+        Me.Panel3.Controls.Add(Me.Button23)
         Me.Panel3.Controls.Add(Me.Button21)
         Me.Panel3.Controls.Add(Me.Button20)
         Me.Panel3.Controls.Add(Me.Label18)
@@ -147,24 +147,24 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(962, 490)
         Me.Panel3.TabIndex = 0
         '
-        'Button22
+        'Button23
         '
-        Me.Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button22.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button22.Location = New System.Drawing.Point(638, 10)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(35, 23)
-        Me.Button22.TabIndex = 20
-        Me.Button22.Text = "FU"
-        Me.Button22.UseVisualStyleBackColor = False
+        Me.Button23.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button23.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button23.Location = New System.Drawing.Point(786, 10)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(26, 23)
+        Me.Button23.TabIndex = 21
+        Me.Button23.Text = "U"
+        Me.Button23.UseVisualStyleBackColor = False
         '
         'Button21
         '
         Me.Button21.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
         Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button21.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button21.Location = New System.Drawing.Point(679, 10)
+        Me.Button21.Location = New System.Drawing.Point(646, 10)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(49, 23)
         Me.Button21.TabIndex = 19
@@ -176,7 +176,7 @@ Partial Class Form1
         Me.Button20.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button20.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button20.Location = New System.Drawing.Point(789, 10)
+        Me.Button20.Location = New System.Drawing.Point(757, 10)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(23, 23)
         Me.Button20.TabIndex = 18
@@ -200,7 +200,7 @@ Partial Class Form1
         Me.Button19.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
         Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button19.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button19.Location = New System.Drawing.Point(734, 10)
+        Me.Button19.Location = New System.Drawing.Point(701, 10)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(49, 23)
         Me.Button19.TabIndex = 16
@@ -428,7 +428,7 @@ Partial Class Form1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(197, 33)
         Me.Label8.TabIndex = 10
-        Me.Label8.Text = "iCu RC 23.8.4"
+        Me.Label8.Text = "iCu RC 23.8.5"
         '
         'Button8
         '
@@ -713,5 +713,5 @@ Partial Class Form1
     Friend WithEvents Button20 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents NotifyIcon1 As NotifyIcon
-    Friend WithEvents Button22 As Button
+    Friend WithEvents Button23 As Button
 End Class

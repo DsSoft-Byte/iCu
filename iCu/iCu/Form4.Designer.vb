@@ -25,13 +25,13 @@ Partial Class Form4
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -66,17 +66,25 @@ Partial Class Form4
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button6)
         Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Location = New System.Drawing.Point(16, 80)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(540, 235)
         Me.Panel1.TabIndex = 2
         '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(11, 125)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(514, 23)
+        Me.Button7.TabIndex = 4
+        Me.Button7.Text = "[ESSENTIAL] Cleanup after update!"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'Button5
         '
         Me.Button5.ForeColor = System.Drawing.Color.Red
-        Me.Button5.Location = New System.Drawing.Point(11, 201)
+        Me.Button5.Location = New System.Drawing.Point(11, 183)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(514, 23)
         Me.Button5.TabIndex = 3
@@ -85,7 +93,7 @@ Partial Class Form4
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(11, 172)
+        Me.Button3.Location = New System.Drawing.Point(11, 154)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(514, 23)
         Me.Button3.TabIndex = 3
@@ -95,7 +103,7 @@ Partial Class Form4
         'Button2
         '
         Me.Button2.Enabled = False
-        Me.Button2.Location = New System.Drawing.Point(11, 56)
+        Me.Button2.Location = New System.Drawing.Point(11, 67)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(514, 23)
         Me.Button2.TabIndex = 3
@@ -105,7 +113,7 @@ Partial Class Form4
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Button6.Location = New System.Drawing.Point(11, 114)
+        Me.Button6.Location = New System.Drawing.Point(11, 38)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(514, 23)
         Me.Button6.TabIndex = 2
@@ -114,30 +122,24 @@ Partial Class Form4
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(11, 85)
+        Me.Button4.Location = New System.Drawing.Point(11, 96)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(514, 23)
         Me.Button4.TabIndex = 2
         Me.Button4.Text = "CMD for debugging"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'Button1
+        'Label3
         '
-        Me.Button1.Location = New System.Drawing.Point(11, 27)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(514, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Install Git"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(11, 143)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(514, 23)
-        Me.Button7.TabIndex = 4
-        Me.Button7.Text = "[ESSENTIAL] Cleanup after update!"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label3.Location = New System.Drawing.Point(26, 339)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(515, 16)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "While updating trough settings is still 100% possible, please use the ""U"" Update " &
+    "button"
         '
         'Form4
         '
@@ -145,6 +147,7 @@ Partial Class Form4
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(577, 404)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
@@ -163,11 +166,11 @@ Partial Class Form4
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
+    Friend WithEvents Label3 As Label
 End Class

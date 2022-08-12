@@ -104,3 +104,4 @@ C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.vbproj.CopyComplete
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.exe
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.xml
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.pdb
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.Form7.resources

@@ -161,8 +161,12 @@ The Tool is 100% Open and you can help fixing it if you want to, nobody forces y
         Process.Start(fileReader)
     End Sub
 
-    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+    Private Sub Button22_Click(sender As Object, e As EventArgs)
         Form6.Show()
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        Form7.Show()
     End Sub
 End Class
 'This fucking piece of code took me 2h to copy from stack cuz the thread was very old and who tf reads configs from .txt's anymore man.

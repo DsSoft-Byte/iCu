@@ -12,12 +12,24 @@ Public Class Form6
             Module1.Main()
             Process.Start("C:\Users\Public\Downloads\Updater\iCures\Updater\iCuUpdater.exe")
             Me.Close()
+            Form7.Close()
             Form1.Close()
         End If
     End Sub
 
     Private Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If My.Computer.FileSystem.DirectoryExists("C:\Users\Public\Downloads\Updater\iCures") Then
+            MsgBox("Extracted update file detected. Updater halted. Use iCu Cleanup feature in settings.")
+            Button2.Enabled = False
+            Label5.Visible = True
 
+        Else
+
+        End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
     End Sub
 End Class
 Module Module1
