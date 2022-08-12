@@ -1,0 +1,9 @@
+is_global = true
+build_property.ApplicationManifest = app.manifest
+build_property.StartupObject = iCu_Updater.Form1
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.RootNamespace = iCu_Updater
+build_property.ProjectDir = C:\Users\Daniel\source\repos\iCu Updater\iCu Updater\

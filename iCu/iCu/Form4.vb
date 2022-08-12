@@ -29,4 +29,17 @@
             Form6.Show()
         End If
     End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+
+        If My.Computer.FileSystem.DirectoryExists("C:\Users\Public\Downloads\Updater\iCures\") Then
+            My.Computer.FileSystem.DeleteDirectory(
+"C:\Users\Public\Downloads\Updater\iCures\",
+FileIO.DeleteDirectoryOption.DeleteAllContents)
+            MsgBox("Junk files have been found and deleted.")
+        Else
+            MsgBox("The Update temp files are not present! If you are sure there are some left over clean them manually!
+The files would be located at C:\Users\Public\Downloads\Updater\iCures\")
+        End If
+    End Sub
 End Class

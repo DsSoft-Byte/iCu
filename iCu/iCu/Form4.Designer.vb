@@ -25,12 +25,13 @@ Partial Class Form4
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -59,6 +60,7 @@ Partial Class Form4
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.DimGray
+        Me.Panel1.Controls.Add(Me.Button7)
         Me.Panel1.Controls.Add(Me.Button5)
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Button2)
@@ -71,6 +73,25 @@ Partial Class Form4
         Me.Panel1.Size = New System.Drawing.Size(540, 235)
         Me.Panel1.TabIndex = 2
         '
+        'Button5
+        '
+        Me.Button5.ForeColor = System.Drawing.Color.Red
+        Me.Button5.Location = New System.Drawing.Point(11, 201)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(514, 23)
+        Me.Button5.TabIndex = 3
+        Me.Button5.Text = "DO NOT CLICK THIS BUTTON"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(11, 172)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(514, 23)
+        Me.Button3.TabIndex = 3
+        Me.Button3.Text = "Enter DevCode for WIP options"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Button2
         '
         Me.Button2.Enabled = False
@@ -81,23 +102,15 @@ Partial Class Form4
         Me.Button2.Text = "SSH control panel"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Button1
+        'Button6
         '
-        Me.Button1.Location = New System.Drawing.Point(11, 27)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(514, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Install Git"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(11, 143)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(514, 23)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Enter DevCode for WIP options"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Button6.Location = New System.Drawing.Point(11, 114)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(514, 23)
+        Me.Button6.TabIndex = 2
+        Me.Button6.Text = "Updater"
+        Me.Button6.UseVisualStyleBackColor = False
         '
         'Button4
         '
@@ -108,25 +121,23 @@ Partial Class Form4
         Me.Button4.Text = "CMD for debugging"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'Button5
+        'Button1
         '
-        Me.Button5.ForeColor = System.Drawing.Color.Red
-        Me.Button5.Location = New System.Drawing.Point(11, 172)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(514, 23)
-        Me.Button5.TabIndex = 3
-        Me.Button5.Text = "DO NOT CLICK THIS BUTTON"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button1.Location = New System.Drawing.Point(11, 27)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(514, 23)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Install Git"
+        Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Button7
         '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Button6.Location = New System.Drawing.Point(11, 114)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(514, 23)
-        Me.Button6.TabIndex = 2
-        Me.Button6.Text = "Updater"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.Button7.Location = New System.Drawing.Point(11, 143)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(514, 23)
+        Me.Button7.TabIndex = 4
+        Me.Button7.Text = "[ESSENTIAL] Cleanup after update!"
+        Me.Button7.UseVisualStyleBackColor = True
         '
         'Form4
         '
@@ -158,4 +169,5 @@ Partial Class Form4
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 End Class
