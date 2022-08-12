@@ -428,7 +428,7 @@ Partial Class Form1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(197, 33)
         Me.Label8.TabIndex = 10
-        Me.Label8.Text = "iCu RC 23.8.5"
+        Me.Label8.Text = "iCu RC 23.8.6"
         '
         'Button8
         '

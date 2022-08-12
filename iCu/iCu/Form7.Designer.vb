@@ -31,16 +31,16 @@ Partial Class Form7
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -68,7 +68,7 @@ Partial Class Form7
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(248, 20)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "DsSoft iCu update center V23.8.5"
+        Me.Label1.Text = "DsSoft iCu update center V23.8.6"
         '
         'Label2
         '
@@ -112,7 +112,7 @@ Partial Class Form7
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(184, 20)
         Me.Label4.TabIndex = 5
-        Me.Label4.Text = "iCu V23.8.5 Patch notes:"
+        Me.Label4.Text = "iCu V23.8.6 Patch notes:"
         '
         'Panel1
         '
@@ -138,28 +138,6 @@ Partial Class Form7
         Me.Panel2.Size = New System.Drawing.Size(367, 224)
         Me.Panel2.TabIndex = 7
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Location = New System.Drawing.Point(67, 31)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(244, 20)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "Force-update/downgrade options"
-        '
-        'Button2
-        '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button2.Location = New System.Drawing.Point(83, 79)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(214, 48)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Force-Update"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Button3
         '
         Me.Button3.Enabled = False
@@ -172,6 +150,28 @@ Partial Class Form7
         Me.Button3.Text = "Force-Downgrade (Soon!)"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button2.Location = New System.Drawing.Point(83, 79)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(214, 48)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "Force-Update"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label5.Location = New System.Drawing.Point(67, 31)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(244, 20)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "Force-update/downgrade options"
+        '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
@@ -181,17 +181,6 @@ Partial Class Form7
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(367, 139)
         Me.Panel3.TabIndex = 8
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Location = New System.Drawing.Point(67, 22)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(238, 20)
-        Me.Label6.TabIndex = 7
-        Me.Label6.Text = "DsSoft LayerOne engine add-on"
         '
         'Label7
         '
@@ -204,6 +193,17 @@ Partial Class Form7
         Me.Label7.TabIndex = 9
         Me.Label7.Text = "Not (yet) Applicable"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label6.Location = New System.Drawing.Point(67, 22)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(238, 20)
+        Me.Label6.TabIndex = 7
+        Me.Label6.Text = "DsSoft LayerOne engine add-on"
+        '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
@@ -215,16 +215,16 @@ Partial Class Form7
         Me.Panel4.Size = New System.Drawing.Size(468, 139)
         Me.Panel4.TabIndex = 10
         '
-        'Label8
+        'Button4
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label8.Location = New System.Drawing.Point(125, 22)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(211, 20)
-        Me.Label8.TabIndex = 10
-        Me.Label8.Text = "iCu update clean-up controls"
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button4.Location = New System.Drawing.Point(23, 92)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(425, 33)
+        Me.Button4.TabIndex = 7
+        Me.Button4.Text = "[RECOMMENDED] Issue after-update temp-file cleanup [RECOMMENDED]"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Label9
         '
@@ -238,16 +238,16 @@ Partial Class Form7
         Me.Label9.Text = "Unfortunatly, our updater cannot delete all files when running, this is NEEDED" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "a" &
     "fter updating. after you update, issue this clean-up immediatly!"
         '
-        'Button4
+        'Label8
         '
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button4.Location = New System.Drawing.Point(23, 92)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(425, 33)
-        Me.Button4.TabIndex = 7
-        Me.Button4.Text = "[RECOMMENDED] Issue after-update temp-file cleanup [RECOMMENDED]"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Location = New System.Drawing.Point(125, 22)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(211, 20)
+        Me.Label8.TabIndex = 10
+        Me.Label8.Text = "iCu update clean-up controls"
         '
         'Label10
         '
@@ -256,9 +256,9 @@ Partial Class Form7
         Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label10.Location = New System.Drawing.Point(22, 458)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(184, 20)
+        Me.Label10.Size = New System.Drawing.Size(50, 20)
         Me.Label10.TabIndex = 11
-        Me.Label10.Text = "iCu V23.8.5 Patch notes:"
+        Me.Label10.Text = "NULL"
         '
         'Form7
         '
