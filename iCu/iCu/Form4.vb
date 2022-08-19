@@ -1,5 +1,5 @@
 ﻿Public Class Form4
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs)
         Process.Start("https://www.youtube.com/watch?v=-AXetJvTfU0")
     End Sub
 
@@ -41,5 +41,9 @@ FileIO.DeleteDirectoryOption.DeleteAllContents)
             MsgBox("The Update temp files are not present! If you are sure there are some left over clean them manually!
 The files would be located at C:\Users\Public\Downloads\Updater\iCures\")
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Form8.Show()
     End Sub
 End Class

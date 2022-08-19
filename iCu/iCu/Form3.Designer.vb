@@ -65,7 +65,7 @@ Partial Class Form3
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(289, 16)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "iCu 23.8.6 was made around these components:"
+        Me.Label3.Text = "iCu 23.8.7 was made around these components:"
         '
         'Label4
         '

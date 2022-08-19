@@ -104,7 +104,7 @@
         iCu_DLL.Class1.RunPrelaunch()
     End Sub
 
-    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+    Private Sub Button17_Click(sender As Object, e As EventArgs)
         MessageBox.Show("Altough donations are nice, the ukrainians need them more. Go donate to ukraine instead.")
     End Sub
 
@@ -167,6 +167,10 @@ The Tool is 100% Open and you can help fixing it if you want to, nobody forces y
 
     Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
         Form7.Show()
+    End Sub
+
+    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
+
     End Sub
 End Class
 'This fucking piece of code took me 2h to copy from stack cuz the thread was very old and who tf reads configs from .txt's anymore man.
