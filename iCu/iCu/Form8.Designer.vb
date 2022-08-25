@@ -26,16 +26,16 @@ Partial Class Form8
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -79,85 +79,15 @@ Partial Class Form8
         Me.Panel1.Size = New System.Drawing.Size(758, 311)
         Me.Panel1.TabIndex = 3
         '
-        'Label3
+        'Label4
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(18, 234)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(74, 13)
-        Me.Label3.TabIndex = 12
-        Me.Label3.Text = "W11O: TRUE"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label12.Location = New System.Drawing.Point(18, 210)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(119, 13)
-        Me.Label12.TabIndex = 11
-        Me.Label12.Text = "BETABRANCH: FALSE"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label11.Location = New System.Drawing.Point(18, 187)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(79, 13)
-        Me.Label11.TabIndex = 10
-        Me.Label11.Text = "NEW-S: TRUE"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label10.Location = New System.Drawing.Point(18, 162)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(114, 13)
-        Me.Label10.TabIndex = 9
-        Me.Label10.Text = "DsSoft L1: unavailable"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label9.Location = New System.Drawing.Point(18, 139)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(173, 13)
-        Me.Label9.TabIndex = 8
-        Me.Label9.Text = "UPDATERUPDATEVOTA: Y, OTA"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label8.Location = New System.Drawing.Point(18, 113)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(162, 13)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "LIBIMDEVICE: IDACT-UNFIXED"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label7.Location = New System.Drawing.Point(18, 89)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(109, 13)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "UPDATER: NO INFO"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label6.Location = New System.Drawing.Point(18, 66)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(118, 13)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "PRELAUNCHER: 3.3.7"
+        Me.Label4.AutoSize = True
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label4.Location = New System.Drawing.Point(18, 16)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(65, 13)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "VER: 23.8.7"
         '
         'Label5
         '
@@ -169,15 +99,85 @@ Partial Class Form8
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "DLL: 8.1.2"
         '
-        'Label4
+        'Label6
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(18, 16)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(72, 13)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "VER: B23.8.8"
+        Me.Label6.AutoSize = True
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label6.Location = New System.Drawing.Point(18, 66)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(118, 13)
+        Me.Label6.TabIndex = 5
+        Me.Label6.Text = "PRELAUNCHER: 3.3.7"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label7.Location = New System.Drawing.Point(18, 89)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(109, 13)
+        Me.Label7.TabIndex = 6
+        Me.Label7.Text = "UPDATER: NO INFO"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Location = New System.Drawing.Point(18, 113)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(162, 13)
+        Me.Label8.TabIndex = 7
+        Me.Label8.Text = "LIBIMDEVICE: IDACT-UNFIXED"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label9.Location = New System.Drawing.Point(18, 139)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(173, 13)
+        Me.Label9.TabIndex = 8
+        Me.Label9.Text = "UPDATERUPDATEVOTA: Y, OTA"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label10.Location = New System.Drawing.Point(18, 162)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(185, 13)
+        Me.Label10.TabIndex = 9
+        Me.Label10.Text = "DsSoft L1: Not-compliant, unavailable"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label11.Location = New System.Drawing.Point(18, 187)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(79, 13)
+        Me.Label11.TabIndex = 10
+        Me.Label11.Text = "NEW-S: TRUE"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label12.Location = New System.Drawing.Point(18, 210)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(119, 13)
+        Me.Label12.TabIndex = 11
+        Me.Label12.Text = "BETABRANCH: FALSE"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label3.Location = New System.Drawing.Point(18, 234)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(74, 13)
+        Me.Label3.TabIndex = 12
+        Me.Label3.Text = "W11O: TRUE"
         '
         'Form8
         '

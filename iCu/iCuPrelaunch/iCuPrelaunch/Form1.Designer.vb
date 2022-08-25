@@ -24,72 +24,98 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(3, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(490, 18)
+        Me.Label1.Size = New System.Drawing.Size(0, 18)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Before you launch the iCu software here you will need to accept the EULA"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.ScrollBar
-        Me.TextBox1.Location = New System.Drawing.Point(15, 51)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(614, 523)
-        Me.TextBox1.TabIndex = 1
-        Me.TextBox1.Text = resources.GetString("TextBox1.Text")
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(15, 581)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(307, 34)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "I do not accept the EULA"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(322, 581)
+        Me.Button2.Enabled = False
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button2.Location = New System.Drawing.Point(6, 108)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(307, 34)
+        Me.Button2.Size = New System.Drawing.Size(455, 34)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "I accept the EULA"
+        Me.Button2.Text = "Launch iCu software"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.CheckBox1.Location = New System.Drawing.Point(156, 80)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(164, 22)
+        Me.CheckBox1.TabIndex = 4
+        Me.CheckBox1.Text = "I agree with the EULA"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label2.Location = New System.Drawing.Point(13, 13)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(453, 20)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "iCu  Software launcher |                                                       | " &
+    "V3.3.7"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.Purple
+        Me.LinkLabel1.Location = New System.Drawing.Point(241, 15)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(99, 18)
+        Me.LinkLabel1.TabIndex = 6
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "| View EULA |"
+        Me.LinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(113, Byte), Integer))
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.ClientSize = New System.Drawing.Size(641, 622)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(473, 157)
+        Me.Controls.Add(Me.LinkLabel1)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.ShowInTaskbar = False
-        Me.Text = "iCu prelaunch environment"
+        Me.Text = "iCu Launcher V3.3.7"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class

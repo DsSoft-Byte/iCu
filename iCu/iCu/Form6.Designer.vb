@@ -39,9 +39,9 @@ Partial Class Form6
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label1.Location = New System.Drawing.Point(13, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(340, 18)
+        Me.Label1.Size = New System.Drawing.Size(246, 18)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "DsSoft iCu Standalone update agent [BETA 23.8.8]"
+        Me.Label1.Text = "DsSoft iCu Standalone update agent"
         '
         'Label2
         '
@@ -91,10 +91,11 @@ Partial Class Form6
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label4.Location = New System.Drawing.Point(22, 167)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(503, 32)
+        Me.Label4.Size = New System.Drawing.Size(677, 32)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "The programm will close and launch an updater if you decide to update. If somethi" &
-    "ng" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "would go wrong you can always roll back manually later."
+    "ng" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "would go wrong you can always roll back manually later. This programm WILL F" &
+    "REEZE, thats expected behaviour"
         '
         'Label5
         '

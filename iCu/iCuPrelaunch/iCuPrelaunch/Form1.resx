@@ -117,13 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TextBox1.Text" xml:space="preserve">
-    <value>This program, commonly referred to as "iCu" or "iCloud unlocker" or "Setupapp unlocker" uses the following softwares to function properly: "XAMPP" https://www.apachefriends.org/pl/index.html "libimobiledevice" https://github.com/libimobiledevice/libimobiledevice "node.js" https://nodejs.org/en/ "Pangu7" https://pangu.io/en/ and required "Apple iTunes" to be installed for the drivers to work. "We" or referred to as "DsSoft" take absolutely no responsibility for broken or bricked devices. You may contact us for assistance with a bootlooped or soft-bricked device but we will not "repair" or "replace" it, all of the damage done with this tool is on you and only you Any damage done to your PC from this tool is not covered by us or any of the r/setupapp moderators or owner/s. Do NOT attempt on unsupported devices there will be a "info" or "i" button very soon to help you see what devices are supported. This software made a "device id" dump to lastdeviceid.txt in the iCu directory for the main programm to be able to read the UDID of your device. This is needed to help you find the UDID for a command to enter recovery and may be needed more in the future.
-This tool provides full transparency to users by being buildt around open-source software and this whole tool or its fragments will be open-sourced in the near future too, by accepting this agreement you also agree to not insult and (or) harass the moderators and (or) the developer(s). WE GIVE US ALL RIGHTS TO EDIT THIS INFORMATION AS IS WITHOUT ANY PRIOR INFO 
-
-
-DO NOT ATTEMPT ON iOS 15 OR ABOVE OR YOU'LL RISK BRICKING YOUR DEVICE</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

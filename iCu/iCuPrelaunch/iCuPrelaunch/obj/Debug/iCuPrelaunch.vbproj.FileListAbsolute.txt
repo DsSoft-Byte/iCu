@@ -21,3 +21,17 @@ C:\Users\Daniel\Desktop\iCu-main(1)\iCu-main\iCu\iCuPrelaunch\iCuPrelaunch\obj\D
 C:\Users\Daniel\Desktop\iCu-main(1)\iCu-main\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.exe
 C:\Users\Daniel\Desktop\iCu-main(1)\iCu-main\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.xml
 C:\Users\Daniel\Desktop\iCu-main(1)\iCu-main\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.pdb
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.exe.config
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.exe
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.pdb
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\bin\Debug\iCuPrelaunch.xml
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.vbproj.AssemblyReference.cache
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.Form1.resources
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.Resources.resources
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.vbproj.GenerateResource.cache
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.vbproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.exe
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.xml
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.pdb
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCuPrelaunch\iCuPrelaunch\obj\Debug\iCuPrelaunch.Form2.resources
