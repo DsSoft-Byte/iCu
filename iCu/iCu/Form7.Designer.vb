@@ -66,9 +66,13 @@ Partial Class Form7
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label1.Location = New System.Drawing.Point(213, 31)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(248, 20)
+        Me.Label1.Size = New System.Drawing.Size(259, 20)
         Me.Label1.TabIndex = 1
+<<<<<<< Updated upstream
         Me.Label1.Text = "DsSoft iCu update center V23.8.5"
+=======
+        Me.Label1.Text = "DsSoft iCu update center V23.8.8B"
+>>>>>>> Stashed changes
         '
         'Label2
         '
@@ -110,9 +114,13 @@ Partial Class Form7
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label4.Location = New System.Drawing.Point(22, 416)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(184, 20)
+        Me.Label4.Size = New System.Drawing.Size(222, 20)
         Me.Label4.TabIndex = 5
+<<<<<<< Updated upstream
         Me.Label4.Text = "iCu V23.8.5 Patch notes:"
+=======
+        Me.Label4.Text = "iCu V23.8.8 Beta Patch notes:"
+>>>>>>> Stashed changes
         '
         'Panel1
         '

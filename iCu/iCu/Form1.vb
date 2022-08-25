@@ -168,5 +168,28 @@ The Tool is 100% Open and you can help fixing it if you want to, nobody forces y
     Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
         Form7.Show()
     End Sub
+<<<<<<< Updated upstream
+=======
+
+    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
+
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Process.Start("https://icu.uk.ms/")
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Process.Start("https://aliexpress.com/i/4001066498152.html?gatewayAdapt=glo2deu")
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        MsgBox("iRepair was not yet implemented, try again in a few days")
+    End Sub
+
+    Private Sub Button17_Click_1(sender As Object, e As EventArgs) Handles Button17.Click
+        MsgBox("Comming soon!")
+    End Sub
+>>>>>>> Stashed changes
 End Class
 'This fucking piece of code took me 2h to copy from stack cuz the thread was very old and who tf reads configs from .txt's anymore man.

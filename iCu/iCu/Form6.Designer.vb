@@ -39,9 +39,9 @@ Partial Class Form6
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label1.Location = New System.Drawing.Point(13, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(246, 18)
+        Me.Label1.Size = New System.Drawing.Size(340, 18)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "DsSoft iCu Standalone update agent"
+        Me.Label1.Text = "DsSoft iCu Standalone update agent [BETA 23.8.8]"
         '
         'Label2
         '

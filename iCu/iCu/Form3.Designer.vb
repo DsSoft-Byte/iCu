@@ -63,9 +63,13 @@ Partial Class Form3
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label3.Location = New System.Drawing.Point(17, 92)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(289, 16)
+        Me.Label3.Size = New System.Drawing.Size(320, 16)
         Me.Label3.TabIndex = 2
+<<<<<<< Updated upstream
         Me.Label3.Text = "iCu 23.8.5 was made around these components:"
+=======
+        Me.Label3.Text = "iCu Beta 23.8.8 was made around these components:"
+>>>>>>> Stashed changes
         '
         'Label4
         '
