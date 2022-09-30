@@ -18,17 +18,27 @@ Pwn Limera1n devices with Limera1n
 ## Written Tutorial, Step-By-Step
 
 Use the Install XAMPP in PrepTools
+
 Wait for Download and install in default location
+
 Click run XAMPP and start everything
+
 Use Bypass Tethered (x64), Both buttons work
+
 If x64 bypass does not work use the x86 options
+
 If you encounter issues with this report then directly via DM on reddit.
+
 CB/X and CB/A buttons are for advanced users and have a written tutorial in the Programms files.
+
 Legacy Tools module usage is self-explaining
 
 If you get errors when closing XAMPP, thats expected and FINE!.
+
 If you get errors while updating, you have no internet connection. This feature is extremely Fail-safe.
+
 This tool will not work on forbidden territory, including but not limited to: Russia, North Korea
+
 For help with error codes, visit our documentation website ONLY LIGHT MODE : https://iCu.uk.ms
 
 
