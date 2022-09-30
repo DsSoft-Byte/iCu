@@ -6,14 +6,23 @@ This tool allows you to perform nearly anything possible with any device; iPhone
 ## What this tool allows you to do;
 
 Run a local XAMPP/Apache server 
+
 Bypass Tethered (Activation Lock, Hello Screen)
+
 Jailbreak with Pangu7
+
 Enter recovery mode
+
 Install an older, fine-tuned iTunes + Driver for Legacy operation(s)
+
 Pwn Limera1n devices with Limera1n
+
 (Soon!) De-spy 3uTools
-(Soon!) Install and Flash a Linux *.iso to an USB stick
+
+(Soon!) Install and Flash a Linux .iso to an USB stick
+
 (Soon!) Pwn A6-devices
+
 
 ## Written Tutorial, Step-By-Step
 
