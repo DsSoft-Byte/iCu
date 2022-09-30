@@ -42,6 +42,8 @@ This tool will not work on forbidden territory, including but not limited to: Ru
 For help with error codes, visit our documentation website ONLY LIGHT MODE : https://iCu.uk.ms
 
 
+## Credits
+
 Credits to the developers of these softwares used by iCu
 
 XAMPP
