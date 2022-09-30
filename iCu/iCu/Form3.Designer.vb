@@ -65,7 +65,7 @@ Partial Class Form3
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(289, 16)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "iCu 23.8.7 was made around these components:"
+        Me.Label3.Text = "iCu 24.0.0 was made around these components:"
         '
         'Label4
         '
@@ -85,9 +85,9 @@ Partial Class Form3
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label7.Location = New System.Drawing.Point(17, 157)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(110, 16)
+        Me.Label7.Size = New System.Drawing.Size(319, 16)
         Me.Label7.TabIndex = 6
-        Me.Label7.Text = "Libimobiledevice"
+        Me.Label7.Text = "Libimobiledevice-win32 (x64 and 32 execs available)"
         '
         'Label8
         '

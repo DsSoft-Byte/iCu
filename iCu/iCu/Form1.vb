@@ -1,14 +1,30 @@
-﻿Public Class Form1
+﻿Imports System.CodeDom
+Imports System.Globalization
+Imports System.Runtime.CompilerServices
+Imports System.Threading
+
+Public Class Form1
+    Public Sub Main()
+        'May my soul descend into the keyboard as i am slowly coding myself to de4t5
+    End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Form3.Show()
     End Sub
-    'May my soul descend into the keyboard as i am slowly coding myself to de4t5
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label7.Text = IO.File.ReadAllText("C:\iCures\lastdeviceid.txt")
         Label14.Text = IO.File.ReadAllText("C:\iCures\lastdevicestate.txt")
         'These Labels will output the saved device info and output it into the tool.
+
+        Dim current As CultureInfo = CultureInfo.CurrentCulture
+        If current.Name.Equals("ru-RU") Then
+            MessageBox.Show("iCu detected that the currently used language is russian, This tool IS NOT FOR USE IN RUSSIA")
+        Else
+
+        End If
+        'This is for language detection and stopping russian motherfuckers from using this
     End Sub
+
 
     Private Sub Form1_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Resize
         If Me.WindowState = FormWindowState.Minimized Then
@@ -21,17 +37,17 @@
             NotifyIcon1.Text = "iCu"
             'Me.Hide() '(Simpler but less fancy)'
             ShowInTaskbar = False
+            'General tray fuckery
         End If
     End Sub
-    'General tray fuckery
 
     Private Sub NotifyIcon1_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.DoubleClick
         'Me.Show()
         ShowInTaskbar = True
         Me.WindowState = FormWindowState.Normal
         NotifyIcon1.Visible = False
+        'General Taskbar fuckery
     End Sub
-    'General Taskbar fuckery
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
@@ -42,7 +58,7 @@
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        iCu_DLL.Class1.InstallXAMPP()
+        MessageBox.Show("This feature is under construction and will be added soon.")
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -89,7 +105,7 @@
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        MessageBox.Show("I can not supply the iTunes driver in this app or else i would get legal problems. Google iTunes XP driver")
+        Process.Start("https://www.filehorse.com/download-itunes-64/16353/download/")
     End Sub
 
     Private Sub Label14_Click(sender As Object, e As EventArgs) Handles Label14.Click
@@ -116,7 +132,7 @@
         MessageBox.Show("Tether bypass, run pangu. After reboot bypass tethered as quick as you can. Install Filza, delete setup.app. DONE")
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(sender As Object, e As EventArgs)
         iCu_DLL.Class1.KillXAMPP()
     End Sub
 
@@ -132,7 +148,7 @@
     End Sub
 
     Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
-        MessageBox.Show("INFO:
+        MessageBox.Show("Info and Help:
 
 
 The CB/X Button is for running user-defined hosting scripts, as the default configuration tends to be troublesome for the majority of users
@@ -151,14 +167,21 @@ CB/A: C:\iCures\CB-A-config.txt
 
 Explaination (in-depth) is at C:\iCures\CBTutorial.txt
 
-The Tool is 100% Open and you can help fixing it if you want to, nobody forces you to use this tool and do not hate on the people you dont need to and on those doing it for free.")
+The x64 and x86 options of the bypass may be confusing but make sense: Use x64, if you dont succeed run x86. x64 is for 64 Bit devices and x86 is for 32 Bit devices. ARM unsupported.
+
+If you have issues with iCu report them to u/The_Hackintosh on Reddit. The Linux-To-USB feature will be there to install Linux to your USB within minutes to get A6-A11 pwndfu.
+
+The Tool is 100% Open and you can help fixing it if you want to, nobody forces you to use this tool and do not hate on the people you dont need to and on those doing it for free.
+
+This tool needs XAMPP installed manually and in the default patch, do NOT use the recommended patch outside C:\ install with defaults. DO NOT alter anything")
+        'Info fuckery
     End Sub
-    'Info fuckery
 
     Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
         Dim fileReader As String
         fileReader = My.Computer.FileSystem.ReadAllText("C:\iCures\CB-A-config.txt")
         Process.Start(fileReader)
+        'This fucking piece of code took me 2h to copy from stack cuz the thread was very old and who tf reads configs from .txt's anymore man.
     End Sub
 
     Private Sub Button22_Click(sender As Object, e As EventArgs)
@@ -172,5 +195,30 @@ The Tool is 100% Open and you can help fixing it if you want to, nobody forces y
     Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
 
     End Sub
+
+    Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
+
+    End Sub
+
+    Private Sub Button22_Click_1(sender As Object, e As EventArgs) Handles Button22.Click
+        MessageBox.Show("Coming in 24.1.1!")
+        'Form9.Show()
+    End Sub
+
+    Private Sub Button17_Click_1(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Process.Start("C:\iCures\idact-x64.bat")
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        Process.Start("C:\iCures\idact-x64.bat")
+    End Sub
+
+    Private Sub Button16_Click_1(sender As Object, e As EventArgs) Handles Button16.Click
+        Process.Start("https://downloadsapachefriends.global.ssl.fastly.net/7.4.29/xampp-windows-x64-7.4.29-1-VC15-installer.exe?from_af=true")
+        MessageBox.Show("XAMPP is being currently downloaded in your default browser. For installation info read Info/Help")
+    End Sub
 End Class
-'This fucking piece of code took me 2h to copy from stack cuz the thread was very old and who tf reads configs from .txt's anymore man.

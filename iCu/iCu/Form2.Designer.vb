@@ -31,6 +31,7 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label1.Location = New System.Drawing.Point(13, 13)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(221, 13)
@@ -47,7 +48,7 @@ Partial Class Form2
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(16, 89)
+        Me.TextBox2.Location = New System.Drawing.Point(16, 75)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(501, 20)
         Me.TextBox2.TabIndex = 2
@@ -55,6 +56,8 @@ Partial Class Form2
         '
         'Button1
         '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button1.Location = New System.Drawing.Point(16, 116)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(501, 23)
@@ -66,6 +69,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(529, 151)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox2)

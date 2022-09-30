@@ -28,19 +28,19 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Button18 = New System.Windows.Forms.Button()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Label17 = New System.Windows.Forms.Label()
         Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
@@ -54,21 +54,23 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button14 = New System.Windows.Forms.Button()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button13 = New System.Windows.Forms.Button()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button16 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.Button16 = New System.Windows.Forms.Button()
         Me.Panel3.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.Panel6.SuspendLayout()
@@ -94,20 +96,20 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label1.Location = New System.Drawing.Point(15, 10)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(310, 24)
+        Me.Label1.Size = New System.Drawing.Size(341, 25)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "iCu. The Ultimative Legacy unlocker"
+        Me.Label1.Text = "iCu. The Ultimate Legacy unlocker"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Location = New System.Drawing.Point(16, 34)
+        Me.Label2.Location = New System.Drawing.Point(17, 35)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(240, 15)
         Me.Label2.TabIndex = 2
@@ -139,42 +141,6 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(962, 490)
         Me.Panel3.TabIndex = 0
         '
-        'Button23
-        '
-        Me.Button23.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button23.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button23.Location = New System.Drawing.Point(12, 66)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(264, 23)
-        Me.Button23.TabIndex = 21
-        Me.Button23.Text = "Update hub"
-        Me.Button23.UseVisualStyleBackColor = False
-        '
-        'Button21
-        '
-        Me.Button21.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button21.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button21.Location = New System.Drawing.Point(12, 95)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(64, 23)
-        Me.Button21.TabIndex = 19
-        Me.Button21.Text = "CB/A"
-        Me.Button21.UseVisualStyleBackColor = False
-        '
-        'Button20
-        '
-        Me.Button20.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button20.Location = New System.Drawing.Point(148, 95)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(128, 23)
-        Me.Button20.TabIndex = 18
-        Me.Button20.Text = "General Information"
-        Me.Button20.UseVisualStyleBackColor = False
-        '
         'Label18
         '
         Me.Label18.AutoSize = True
@@ -186,30 +152,6 @@ Partial Class Form1
         Me.Label18.TabIndex = 17
         Me.Label18.Text = "Use ""CB"" button to run a custom activation script, if default does not work or if" &
     " you need to"
-        '
-        'Button19
-        '
-        Me.Button19.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button19.Location = New System.Drawing.Point(82, 95)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(60, 23)
-        Me.Button19.TabIndex = 16
-        Me.Button19.Text = "CB/X"
-        Me.Button19.UseVisualStyleBackColor = False
-        '
-        'Button18
-        '
-        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button18.Location = New System.Drawing.Point(12, 37)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(264, 23)
-        Me.Button18.TabIndex = 15
-        Me.Button18.Text = "Settings"
-        Me.Button18.UseVisualStyleBackColor = False
         '
         'Label14
         '
@@ -248,6 +190,54 @@ Partial Class Form1
         Me.Panel7.Size = New System.Drawing.Size(292, 135)
         Me.Panel7.TabIndex = 5
         '
+        'Button21
+        '
+        Me.Button21.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button21.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button21.Location = New System.Drawing.Point(12, 95)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(64, 23)
+        Me.Button21.TabIndex = 19
+        Me.Button21.Text = "CB/A"
+        Me.Button21.UseVisualStyleBackColor = False
+        '
+        'Button19
+        '
+        Me.Button19.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button19.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button19.Location = New System.Drawing.Point(82, 95)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(60, 23)
+        Me.Button19.TabIndex = 16
+        Me.Button19.Text = "CB/X"
+        Me.Button19.UseVisualStyleBackColor = False
+        '
+        'Button23
+        '
+        Me.Button23.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button23.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button23.Location = New System.Drawing.Point(12, 66)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(264, 23)
+        Me.Button23.TabIndex = 21
+        Me.Button23.Text = "Update hub"
+        Me.Button23.UseVisualStyleBackColor = False
+        '
+        'Button20
+        '
+        Me.Button20.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button20.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button20.Location = New System.Drawing.Point(148, 95)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(128, 23)
+        Me.Button20.TabIndex = 18
+        Me.Button20.Text = "Info/Help"
+        Me.Button20.UseVisualStyleBackColor = False
+        '
         'Label12
         '
         Me.Label12.AutoSize = True
@@ -258,11 +248,23 @@ Partial Class Form1
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "Settings | Misc Tools"
         '
+        'Button18
+        '
+        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button18.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button18.Location = New System.Drawing.Point(12, 37)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(264, 23)
+        Me.Button18.TabIndex = 15
+        Me.Button18.Text = "Settings"
+        Me.Button18.UseVisualStyleBackColor = False
+        '
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
-        Me.Panel6.Controls.Add(Me.Label17)
         Me.Panel6.Controls.Add(Me.Button11)
+        Me.Panel6.Controls.Add(Me.Button22)
         Me.Panel6.Controls.Add(Me.Button12)
         Me.Panel6.Controls.Add(Me.Label11)
         Me.Panel6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
@@ -271,27 +273,28 @@ Partial Class Form1
         Me.Panel6.Size = New System.Drawing.Size(292, 135)
         Me.Panel6.TabIndex = 5
         '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.MediumSeaGreen
-        Me.Label17.Location = New System.Drawing.Point(35, 100)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(212, 18)
-        Me.Label17.TabIndex = 15
-        Me.Label17.Text = "All Limera1n devices supported"
-        '
         'Button11
         '
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button11.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button11.Location = New System.Drawing.Point(12, 66)
+        Me.Button11.Location = New System.Drawing.Point(12, 95)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(264, 23)
         Me.Button11.TabIndex = 3
         Me.Button11.Text = "Enter Limera1n pwndfu"
         Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button22
+        '
+        Me.Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button22.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button22.Location = New System.Drawing.Point(12, 66)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(264, 23)
+        Me.Button22.TabIndex = 19
+        Me.Button22.Text = "Legacy Tools - Coming Soon!"
+        Me.Button22.UseVisualStyleBackColor = False
         '
         'Button12
         '
@@ -301,18 +304,18 @@ Partial Class Form1
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(264, 23)
         Me.Button12.TabIndex = 2
-        Me.Button12.Text = "Install old iTunes driver"
+        Me.Button12.Text = "Install old iTunes package"
         Me.Button12.UseVisualStyleBackColor = True
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label11.Location = New System.Drawing.Point(96, 11)
+        Me.Label11.Location = New System.Drawing.Point(15, 11)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(88, 13)
+        Me.Label11.Size = New System.Drawing.Size(261, 13)
         Me.Label11.TabIndex = 0
-        Me.Label11.Text = "Limera1n pwndfu" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label11.Text = "Legacy Tools | Best with limera1n devices + Win7 x64"
         '
         'Panel5
         '
@@ -373,22 +376,22 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(571, 49)
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(623, 55)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(168, 24)
+        Me.Label9.Size = New System.Drawing.Size(198, 25)
         Me.Label9.TabIndex = 11
         Me.Label9.Text = "With iCu_DLL 8.1.2"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(411, 16)
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(399, 13)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(197, 33)
+        Me.Label8.Size = New System.Drawing.Size(252, 42)
         Me.Label8.TabIndex = 10
-        Me.Label8.Text = "iCu RC 23.8.7"
+        Me.Label8.Text = "iCu RC 24.0.0"
         '
         'Button8
         '
@@ -427,6 +430,7 @@ Partial Class Form1
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.Button14)
         Me.Panel4.Controls.Add(Me.Label16)
         Me.Panel4.Controls.Add(Me.Button2)
         Me.Panel4.Controls.Add(Me.Button7)
@@ -437,10 +441,22 @@ Partial Class Form1
         Me.Panel4.Size = New System.Drawing.Size(292, 135)
         Me.Panel4.TabIndex = 6
         '
+        'Button14
+        '
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button14.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button14.Location = New System.Drawing.Point(12, 34)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(130, 23)
+        Me.Button14.TabIndex = 8
+        Me.Button14.Text = "Tether Bypass x64"
+        Me.Button14.UseVisualStyleBackColor = True
+        '
         'Label16
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label16.Location = New System.Drawing.Point(29, 100)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(237, 18)
@@ -462,11 +478,11 @@ Partial Class Form1
         '
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button7.Location = New System.Drawing.Point(12, 34)
+        Me.Button7.Location = New System.Drawing.Point(148, 34)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(264, 23)
+        Me.Button7.Size = New System.Drawing.Size(130, 23)
         Me.Button7.TabIndex = 4
-        Me.Button7.Text = "Tether Bypass"
+        Me.Button7.Text = "Tether Bypass x86"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Label5
@@ -482,6 +498,7 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.Button13)
         Me.Panel2.Controls.Add(Me.Label15)
         Me.Panel2.Controls.Add(Me.Button6)
         Me.Panel2.Controls.Add(Me.Button5)
@@ -492,10 +509,22 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(292, 135)
         Me.Panel2.TabIndex = 5
         '
+        'Button13
+        '
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button13.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button13.Location = New System.Drawing.Point(12, 34)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(129, 23)
+        Me.Button13.TabIndex = 7
+        Me.Button13.Text = "Bypass Tethered x64"
+        Me.Button13.UseVisualStyleBackColor = True
+        '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label15.Location = New System.Drawing.Point(62, 100)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(168, 18)
@@ -510,18 +539,18 @@ Partial Class Form1
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(264, 23)
         Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Re-Run Prelaunch device_id scan" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button6.Text = "Re-Run Prelaunch device UDID scan" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button5
         '
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button5.Location = New System.Drawing.Point(12, 34)
+        Me.Button5.Location = New System.Drawing.Point(147, 34)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(264, 23)
+        Me.Button5.Size = New System.Drawing.Size(129, 23)
         Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Bypass Tethered"
+        Me.Button5.Text = "Bypass Tethered x86"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Label4
@@ -547,22 +576,11 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(292, 135)
         Me.Panel1.TabIndex = 4
         '
-        'Button16
-        '
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button16.Location = New System.Drawing.Point(12, 95)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(264, 23)
-        Me.Button16.TabIndex = 4
-        Me.Button16.Text = "Kill XAMPP" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Button16.UseVisualStyleBackColor = True
-        '
         'Button4
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button4.Location = New System.Drawing.Point(12, 66)
+        Me.Button4.Location = New System.Drawing.Point(12, 92)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(264, 23)
         Me.Button4.TabIndex = 3
@@ -573,11 +591,11 @@ Partial Class Form1
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button3.Location = New System.Drawing.Point(12, 37)
+        Me.Button3.Location = New System.Drawing.Point(12, 34)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(264, 23)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Install XAMPP"
+        Me.Button3.Text = "Linux-To-USB"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Label3
@@ -596,6 +614,17 @@ Partial Class Form1
         Me.NotifyIcon1.Text = "NotifyIcon1"
         Me.NotifyIcon1.Visible = True
         '
+        'Button16
+        '
+        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button16.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button16.Location = New System.Drawing.Point(12, 63)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(264, 23)
+        Me.Button16.TabIndex = 4
+        Me.Button16.Text = "Install XAMPP"
+        Me.Button16.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -607,7 +636,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "iCu | Dark Mode"
+        Me.Text = "iCu | Dark Mode (x86 + x64 compat mode)"
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel7.ResumeLayout(False)
@@ -660,15 +689,17 @@ Partial Class Form1
     Friend WithEvents Label10 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label13 As Label
-    Friend WithEvents Label17 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Button18 As Button
-    Friend WithEvents Button16 As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents Label18 As Label
     Friend WithEvents Button20 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents NotifyIcon1 As NotifyIcon
     Friend WithEvents Button23 As Button
+    Friend WithEvents Button22 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button16 As Button
 End Class

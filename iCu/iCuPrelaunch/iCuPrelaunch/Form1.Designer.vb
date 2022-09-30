@@ -76,19 +76,19 @@ Partial Class Form1
         Me.Label2.Size = New System.Drawing.Size(453, 20)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "iCu  Software launcher |                                                       | " &
-    "V3.3.7"
+    "V4.0.0"
         '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkColor = System.Drawing.Color.Purple
-        Me.LinkLabel1.Location = New System.Drawing.Point(241, 15)
+        Me.LinkLabel1.Location = New System.Drawing.Point(249, 15)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(99, 18)
+        Me.LinkLabel1.Size = New System.Drawing.Size(81, 18)
         Me.LinkLabel1.TabIndex = 6
         Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "| View EULA |"
+        Me.LinkLabel1.Text = "View EULA"
         Me.LinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(113, Byte), Integer))
         '
         'Form1
@@ -107,7 +107,7 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.ShowInTaskbar = False
-        Me.Text = "iCu Launcher V3.3.7"
+        Me.Text = "iCu Launcher V4.0.0"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -11,7 +11,6 @@
     End Sub
 
     Public Shared Sub InstallXAMPP()
-        Process.Start("C:\iCures\Dependencies\XAMMP7.exe")
 
     End Sub
 

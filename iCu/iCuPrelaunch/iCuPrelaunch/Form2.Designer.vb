@@ -34,7 +34,7 @@ Partial Class Form2
         Me.TextBox1.Location = New System.Drawing.Point(12, 59)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(430, 415)
+        Me.TextBox1.Size = New System.Drawing.Size(430, 436)
         Me.TextBox1.TabIndex = 2
         Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         '
@@ -53,7 +53,7 @@ Partial Class Form2
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button1.Location = New System.Drawing.Point(12, 480)
+        Me.Button1.Location = New System.Drawing.Point(12, 517)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(430, 31)
         Me.Button1.TabIndex = 4
@@ -65,7 +65,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(454, 523)
+        Me.ClientSize = New System.Drawing.Size(454, 560)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)

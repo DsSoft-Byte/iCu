@@ -36,4 +36,8 @@ The files would be located at C:\Users\Public\Downloads\Updater\iCures\")
         fileReader = My.Computer.FileSystem.ReadAllText("C:\iCures\Patchnotes.txt")
         Label10.Text = (fileReader)
     End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
 End Class

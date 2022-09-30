@@ -26,16 +26,16 @@ Partial Class Form4
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -64,6 +64,8 @@ Partial Class Form4
         '
         'Button7
         '
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button7.Location = New System.Drawing.Point(19, 85)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(296, 23)
@@ -73,6 +75,8 @@ Partial Class Form4
         '
         'Button3
         '
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button3.Location = New System.Drawing.Point(31, 46)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(279, 23)
@@ -80,19 +84,11 @@ Partial Class Form4
         Me.Button3.Text = "DevCode"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'Button2
-        '
-        Me.Button2.Enabled = False
-        Me.Button2.Location = New System.Drawing.Point(19, 161)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(296, 23)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "SSH manual controls and toggles"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Button6
         '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button6.Location = New System.Drawing.Point(19, 46)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(296, 23)
@@ -102,7 +98,9 @@ Partial Class Form4
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(19, 123)
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button4.Location = New System.Drawing.Point(19, 161)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(296, 23)
         Me.Button4.TabIndex = 2
@@ -123,6 +121,8 @@ Partial Class Form4
         '
         'Button1
         '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button1.Location = New System.Drawing.Point(31, 85)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(279, 23)
@@ -143,15 +143,26 @@ Partial Class Form4
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(126, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.Button6)
         Me.Panel2.Controls.Add(Me.Button7)
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Location = New System.Drawing.Point(16, 61)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(336, 213)
         Me.Panel2.TabIndex = 6
+        '
+        'Button2
+        '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button2.Location = New System.Drawing.Point(19, 123)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(296, 23)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "Unlock CB/A and CB/X Buttons"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Panel1
         '
@@ -166,6 +177,17 @@ Partial Class Form4
         Me.Panel1.Size = New System.Drawing.Size(336, 213)
         Me.Panel1.TabIndex = 7
         '
+        'Button5
+        '
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button5.Location = New System.Drawing.Point(31, 123)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(279, 23)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "Advanced force-downgrade"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -176,15 +198,6 @@ Partial Class Form4
         Me.Label5.Size = New System.Drawing.Size(137, 16)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Development settings"
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(31, 123)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(279, 23)
-        Me.Button5.TabIndex = 7
-        Me.Button5.Text = "Advanced force-downgrade"
-        Me.Button5.UseVisualStyleBackColor = True
         '
         'Form4
         '
@@ -213,7 +226,6 @@ Partial Class Form4
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button6 As Button
@@ -225,4 +237,5 @@ Partial Class Form4
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button5 As Button
     Friend WithEvents Label5 As Label
+    Friend WithEvents Button2 As Button
 End Class

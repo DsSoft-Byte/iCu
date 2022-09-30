@@ -34,9 +34,9 @@ Partial Class Form5
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label1.Location = New System.Drawing.Point(13, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(520, 18)
+        Me.Label1.Size = New System.Drawing.Size(125, 18)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Enter your DevCode provided by The_Hackintosh here to unlock WIP features"
+        Me.Label1.Text = "Enter your code..."
         '
         'TextBox1
         '

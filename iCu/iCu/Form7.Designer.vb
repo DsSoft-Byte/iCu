@@ -68,7 +68,7 @@ Partial Class Form7
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(248, 20)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "DsSoft iCu update center V23.8.7"
+        Me.Label1.Text = "DsSoft iCu update center V24.0.0"
         '
         'Label2
         '
@@ -112,7 +112,7 @@ Partial Class Form7
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(184, 20)
         Me.Label4.TabIndex = 5
-        Me.Label4.Text = "iCu V23.8.7 Patch notes:"
+        Me.Label4.Text = "iCu V24.0.0 Patch notes:"
         '
         'Panel1
         '
@@ -186,12 +186,12 @@ Partial Class Form7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Gold
-        Me.Label7.Location = New System.Drawing.Point(115, 64)
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label7.Location = New System.Drawing.Point(146, 64)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(146, 20)
+        Me.Label7.Size = New System.Drawing.Size(91, 20)
         Me.Label7.TabIndex = 9
-        Me.Label7.Text = "Not (yet) Applicable"
+        Me.Label7.Text = "Unavailable"
         '
         'Label6
         '
