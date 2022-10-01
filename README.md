@@ -71,5 +71,7 @@ Pangu7
 
 Redsn0w
 
+Thanks to you too, User. You are helping me grow a healthy Non-Profit. learn more at https://dssoft.uk.to
+
 ## iCu, the ultimate tool of r/setupapp
 ## Made with love by u/The_Hackintosh
