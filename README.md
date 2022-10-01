@@ -30,6 +30,8 @@ Use the Install XAMPP in PrepTools
 
 Wait for Download and install in default location
 
+Go to C:\iCures and drag and drop sliver.php into the "htdocs shortcut"
+
 Click run XAMPP and start everything
 
 Use Bypass Tethered (x64), Both buttons work
