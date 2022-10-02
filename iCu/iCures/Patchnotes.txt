@@ -1,0 +1,3 @@
+Unification of the design language. Introduction of x64 and x86 payloads. Code cleanup. Launcher update.
+GeoLocking in forbidden territories. Partial introduction of a Legacy pwner for modern Windows versions.
+Urgent patch for activation.

@@ -68,7 +68,7 @@ Partial Class Form7
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(248, 20)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "DsSoft iCu update center V24.0.0"
+        Me.Label1.Text = "DsSoft iCu update center V24.0.1"
         '
         'Label2
         '
@@ -112,7 +112,7 @@ Partial Class Form7
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(184, 20)
         Me.Label4.TabIndex = 5
-        Me.Label4.Text = "iCu V24.0.0 Patch notes:"
+        Me.Label4.Text = "iCu V24.0.1 Patch notes:"
         '
         'Panel1
         '

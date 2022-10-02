@@ -66,11 +66,11 @@ Partial Class Form1
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button16 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
-        Me.Button16 = New System.Windows.Forms.Button()
         Me.Panel3.SuspendLayout()
         Me.Panel7.SuspendLayout()
         Me.Panel6.SuspendLayout()
@@ -391,7 +391,7 @@ Partial Class Form1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(252, 42)
         Me.Label8.TabIndex = 10
-        Me.Label8.Text = "iCu RC 24.0.0"
+        Me.Label8.Text = "iCu RC 24.0.1"
         '
         'Button8
         '
@@ -576,6 +576,17 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(292, 135)
         Me.Panel1.TabIndex = 4
         '
+        'Button16
+        '
+        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button16.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Button16.Location = New System.Drawing.Point(12, 63)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(264, 23)
+        Me.Button16.TabIndex = 4
+        Me.Button16.Text = "Install XAMPP"
+        Me.Button16.UseVisualStyleBackColor = True
+        '
         'Button4
         '
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -613,17 +624,6 @@ Partial Class Form1
         Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
         Me.NotifyIcon1.Text = "NotifyIcon1"
         Me.NotifyIcon1.Visible = True
-        '
-        'Button16
-        '
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Button16.Location = New System.Drawing.Point(12, 63)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(264, 23)
-        Me.Button16.TabIndex = 4
-        Me.Button16.Text = "Install XAMPP"
-        Me.Button16.UseVisualStyleBackColor = True
         '
         'Form1
         '

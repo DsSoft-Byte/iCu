@@ -135,9 +135,9 @@ Partial Class Form8
         Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label8.Location = New System.Drawing.Point(18, 113)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(214, 13)
+        Me.Label8.Size = New System.Drawing.Size(238, 13)
         Me.Label8.TabIndex = 7
-        Me.Label8.Text = "LIBIMDEVICE: IDACT-UNTESTED-x64-x86"
+        Me.Label8.Text = "LIBIMDEVICE: IDACT-UNTESTED-x64-x86-ATC"
         '
         'Label7
         '
@@ -177,7 +177,7 @@ Partial Class Form8
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(65, 13)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "VER: 24.0.0"
+        Me.Label4.Text = "VER: 24.0.1"
         '
         'Form8
         '
