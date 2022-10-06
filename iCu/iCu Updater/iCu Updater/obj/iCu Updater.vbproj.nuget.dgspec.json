@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\source\\repos\\iCu Updater\\iCu Updater\\iCu Updater.vbproj": {}
+    "C:\\Users\\Daniel\\Documents\\GitHub\\iCu\\iCu\\iCu Updater\\iCu Updater\\iCu Updater.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\source\\repos\\iCu Updater\\iCu Updater\\iCu Updater.vbproj": {
+    "C:\\Users\\Daniel\\Documents\\GitHub\\iCu\\iCu\\iCu Updater\\iCu Updater\\iCu Updater.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\iCu Updater\\iCu Updater\\iCu Updater.vbproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\GitHub\\iCu\\iCu\\iCu Updater\\iCu Updater\\iCu Updater.vbproj",
         "projectName": "iCuUpdater",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\iCu Updater\\iCu Updater\\iCu Updater.vbproj",
+        "projectPath": "C:\\Users\\Daniel\\Documents\\GitHub\\iCu\\iCu\\iCu Updater\\iCu Updater\\iCu Updater.vbproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\source\\repos\\iCu Updater\\iCu Updater\\obj\\",
+        "outputPath": "C:\\Users\\Daniel\\Documents\\GitHub\\iCu\\iCu\\iCu Updater\\iCu Updater\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
