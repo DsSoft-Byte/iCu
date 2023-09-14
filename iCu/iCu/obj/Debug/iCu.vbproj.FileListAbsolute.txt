@@ -83,7 +83,6 @@ C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\Microsoft.VisualStudio.Sh
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\Microsoft.VisualStudio.Interop.dll
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\iCu_DLL.pdb
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\iCu_DLL.xml
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\Microsoft.VisualStudio.GraphModel.xml
@@ -107,3 +106,4 @@ C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.pdb
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.Form7.resources
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.Form8.resources
 C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\obj\Debug\iCu.Form9.resources
+C:\Users\Daniel\Documents\GitHub\iCu\iCu\iCu\bin\Debug\System.Threading.Tasks.Extensions.dll

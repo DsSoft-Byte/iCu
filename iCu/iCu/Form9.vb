@@ -10,4 +10,20 @@
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         MessageBox.Show("Use the button in the main window.")
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+
+    End Sub
 End Class

@@ -379,9 +379,9 @@ Partial Class Form1
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(623, 55)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(198, 25)
+        Me.Label9.Size = New System.Drawing.Size(304, 25)
         Me.Label9.TabIndex = 11
-        Me.Label9.Text = "With iCu_DLL 8.1.2"
+        Me.Label9.Text = "Please use iCu X now, really..."
         '
         'Label8
         '
@@ -391,7 +391,7 @@ Partial Class Form1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(252, 42)
         Me.Label8.TabIndex = 10
-        Me.Label8.Text = "iCu RC 24.0.1"
+        Me.Label8.Text = "iCu RC 24.0.2"
         '
         'Button8
         '
@@ -480,7 +480,7 @@ Partial Class Form1
         Me.Button7.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Button7.Location = New System.Drawing.Point(148, 34)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(130, 23)
+        Me.Button7.Size = New System.Drawing.Size(128, 23)
         Me.Button7.TabIndex = 4
         Me.Button7.Text = "Tether Bypass x86"
         Me.Button7.UseVisualStyleBackColor = True

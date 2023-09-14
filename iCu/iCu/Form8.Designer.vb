@@ -177,7 +177,7 @@ Partial Class Form8
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(65, 13)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "VER: 24.0.1"
+        Me.Label4.Text = "VER: 24.0.2"
         '
         'Form8
         '

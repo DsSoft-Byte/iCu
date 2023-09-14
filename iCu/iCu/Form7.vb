@@ -9,7 +9,7 @@
         Dim currentversion As String = Application.ProductVersion
 
         If newestversions.Contains(currentversion) Then
-            MsgBox("You are up to date!")
+            MsgBox("You are using old iCu. Please download iCu X from github")
         Else
             Form6.Show()
         End If
