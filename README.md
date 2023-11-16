@@ -1,4 +1,4 @@
-# iCu
+# iCu Discontinued, please use iCu X that also is a healthier replacement for 3uTools and more.
 The ultimate legacy bypasser on Windows.
 
 This tool allows you to perform nearly anything possible with any device; iPhone 3G - iPhone 4S
